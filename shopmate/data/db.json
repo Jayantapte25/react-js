@@ -1,0 +1,28 @@
+{
+    "products":[{
+        "id": 1001,
+        "name": "Basics to Advanced In React",
+        "price": 9.99,
+        "in_stock": true
+    }, {
+        "id": 1002,
+        "name": "Basics to Advanced In Node",
+        "price": 9.99,
+        "in_stock": true
+    }, {
+        "id": 1003,
+        "name": "Basics to Advanced In Express",
+        "price": 9.99,
+        "in_stock": false
+    }, {
+        "id": 1004,
+        "name": "Basics to Advanced In MongoDB",
+        "price": 9.99,
+        "in_stock": true
+    }, {
+        "id": 1005,
+        "name": "Basics to Advanced In Mongoose",
+        "price": 9.99,
+        "in_stock": false
+    }]
+}
