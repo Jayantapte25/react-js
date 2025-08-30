@@ -31,3 +31,15 @@ export const useFetch = (url, _body) => {
 
     return { data, loading };
 }
+
+
+// 💡 Mental Model for When to Use Each:
+// useState: "I need to remember something that changes and show it to the user"
+
+// Form inputs, toggle states, counters, fetched data
+// useEffect: "I need to do something after React finishes rendering"
+
+// API calls, setting up subscriptions, DOM manipulation, cleanup
+// useCallback: "I'm passing this function around and want to avoid unnecessary work"
+
+// Functions passed to child components, functions in dependency arrays
